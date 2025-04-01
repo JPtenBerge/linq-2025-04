@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdasDemo", "LambdasDemo\LambdasDemo.csproj", "{E4026D40-E28A-4DEC-978C-476310D178D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreknowledgeDemo", "PreknowledgeDemo\PreknowledgeDemo.csproj", "{998FD40F-7E73-4698-8851-B5FE261ED1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LInqDemo", "LInqDemo\LInqDemo.csproj", "{4E650902-1D36-452E-AD2D-5C05DC4B488A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E4026D40-E28A-4DEC-978C-476310D178D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4026D40-E28A-4DEC-978C-476310D178D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4026D40-E28A-4DEC-978C-476310D178D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998FD40F-7E73-4698-8851-B5FE261ED1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998FD40F-7E73-4698-8851-B5FE261ED1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998FD40F-7E73-4698-8851-B5FE261ED1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998FD40F-7E73-4698-8851-B5FE261ED1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E650902-1D36-452E-AD2D-5C05DC4B488A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E650902-1D36-452E-AD2D-5C05DC4B488A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E650902-1D36-452E-AD2D-5C05DC4B488A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E650902-1D36-452E-AD2D-5C05DC4B488A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
