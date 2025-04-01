@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreknowledgeDemo", "Preknow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LInqDemo", "LInqDemo\LInqDemo.csproj", "{4E650902-1D36-452E-AD2D-5C05DC4B488A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coll", "Coll\Coll.csproj", "{D6A7DEAC-0E99-48AF-A4D0-1757C6C56D7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4E650902-1D36-452E-AD2D-5C05DC4B488A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E650902-1D36-452E-AD2D-5C05DC4B488A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E650902-1D36-452E-AD2D-5C05DC4B488A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A7DEAC-0E99-48AF-A4D0-1757C6C56D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A7DEAC-0E99-48AF-A4D0-1757C6C56D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A7DEAC-0E99-48AF-A4D0-1757C6C56D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A7DEAC-0E99-48AF-A4D0-1757C6C56D7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

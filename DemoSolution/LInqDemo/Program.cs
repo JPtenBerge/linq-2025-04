@@ -49,11 +49,14 @@ List<Product> s_products = new List<Product>
 // .
 // Nullable<int>
 
-//List<int> bla = [104, 108, 122, 84, 11, 958];
-//foreach (var item in bla.Where(x => x > 100))
-//{
-//    Console.WriteLine($"item: {item}");
-//}
+List<int> bla = [104, 108, 122, 84, 11, 958];
+foreach (var item in bla
+    .Where(x => x > 100)
+    .Select(x => x * 10)
+    .Select(x => x * 60))
+{
+    Console.WriteLine($"item: {item}");
+}
 
 //Console.WriteLine(bla.Single(x => x > 100)); // sequence contains no element
 
@@ -63,13 +66,18 @@ List<Product> s_products = new List<Product>
 // - .Join() <== EF Core .Include().ThenInclude()...
 // - ingewikkelde .GroupBy()
 
-//var filteredProducts = from p
-//                       in s_products.Where(x => x.Price < 900)
-//                       where p.Price > 100
-//                       select p;
-//foreach (var product in filteredProducts)
-//{
-//    Console.WriteLine($"product: {product.Description} kost {product.Price}");
-//}
+//new List<int>(1000);
+
+//var bla3 = new System.Collections.ArrayList();
+//bla3.Add()
+
+var filteredProducts = from p
+                       in s_products.Where(x => x.Price < 900)
+                       where p.Price > 100
+                       select p;
+foreach (var product in filteredProducts)
+{
+    Console.WriteLine($"product: {product.Description} kost {product.Price}");
+}
 
 Deffered.Doe();
